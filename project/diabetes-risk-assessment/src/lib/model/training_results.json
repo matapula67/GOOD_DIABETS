@@ -1,0 +1,96 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.5257788668300245,
+    "precision_macro": 0.5652483274831562,
+    "recall_macro": 0.5041111419525183,
+    "f1_macro": 0.5153487795393241,
+    "auc_roc_ovr": 0.6911014415426459,
+    "per_class": {
+      "low": {
+        "precision": 0.5195964581216432,
+        "recall": 0.7254762869882448,
+        "f1": 0.6055146747864332,
+        "support": 9868
+      },
+      "medium": {
+        "precision": 0.5073278458140935,
+        "recall": 0.299798315339898,
+        "f1": 0.376882923191648,
+        "support": 8429
+      },
+      "high": {
+        "precision": 0.6688206785137318,
+        "recall": 0.48705882352941177,
+        "f1": 0.5636487406398911,
+        "support": 1700
+      }
+    }
+  },
+  "random_forest": {
+    "accuracy": 0.5458318747812172,
+    "precision_macro": 0.5548933543713314,
+    "recall_macro": 0.6028621824846173,
+    "f1_macro": 0.4907861139402816,
+    "auc_roc_ovr": 0.7344043146558917,
+    "per_class": {
+      "low": {
+        "precision": 0.5707018578590386,
+        "recall": 0.7844548034049452,
+        "f1": 0.6607203823830659,
+        "support": 9868
+      },
+      "medium": {
+        "precision": 0.753568429890848,
+        "recall": 0.2129552734606715,
+        "f1": 0.33206918878919617,
+        "support": 8429
+      },
+      "high": {
+        "precision": 0.3404097753641076,
+        "recall": 0.8111764705882353,
+        "f1": 0.47956877064858283,
+        "support": 1700
+      }
+    }
+  },
+  "xgboost": {
+    "accuracy": 0.5998399759963995,
+    "precision_macro": 0.79893456315322,
+    "recall_macro": 0.5441722094849565,
+    "f1_macro": 0.5359244474629526,
+    "auc_roc_ovr": 0.7341796648039541,
+    "per_class": {
+      "low": {
+        "precision": 0.5545717691128895,
+        "recall": 0.9901702472638833,
+        "f1": 0.7109542692909375,
+        "support": 9868
+      },
+      "medium": {
+        "precision": 0.9902234636871509,
+        "recall": 0.16822873413216277,
+        "f1": 0.287597606733597,
+        "support": 8429
+      },
+      "high": {
+        "precision": 0.8520084566596194,
+        "recall": 0.47411764705882353,
+        "f1": 0.6092214663643235,
+        "support": 1700
+      }
+    }
+  },
+  "_selected_model": "xgboost",
+  "_features": [
+    "age",
+    "gender_male",
+    "bmi",
+    "blood_glucose_level",
+    "hypertension",
+    "heart_disease",
+    "smoking"
+  ],
+  "_dataset": "diabetes_prediction_dataset (Kaggle, Mustafa Tahsin) - 100,000 patient records, 3-class risk label engineered from HbA1c/glucose ADA thresholds + diagnosed diabetes flag",
+  "_n_train": 79985,
+  "_n_test": 19997
+}
