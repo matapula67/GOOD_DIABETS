@@ -1,0 +1,4 @@
+,accuracy,precision_macro,recall_macro,f1_macro,auc_roc,cv_accuracy_mean,cv_accuracy_std
+XGBoost,0.5942,0.7343,0.5474,0.5385,0.7338,0.5953,0.0014
+Random Forest,0.5403,0.5502,0.6006,0.488,0.7335,0.5461,0.0027
+Logistic Regression,0.4811,0.459,0.5696,0.4724,0.6873,0.4817,0.0025
